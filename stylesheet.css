@@ -1,0 +1,101 @@
+body{
+    background-color: #bababa;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#container{
+    background-color: #4b0082;
+    width: 380px;
+    height: 590px;
+    margin: 60px auto;
+    box-shadow: 0px 0px 20px 15px #595757;
+    border-radius: 15px;
+}
+#screen{
+    display: inline-block;
+    background-color: #ffffff;
+    margin-top: 20px;
+    width: 350px;
+    height: 90px;
+    border-radius: 15px;
+    position: relative;
+}
+#lowerExpression{
+    position: absolute;
+    bottom:10px;
+    left:10px;
+    font-size: 25px;
+    
+}
+#upperExpression{
+    position: absolute;
+    bottom:50px;
+    left:10px;
+    font-size: 15px;
+    color:#626060;
+   
+}
+
+
+#buttonsDiv{
+    margin-top: 15px;
+    margin-left: 5px;
+    height:450px;
+    width:350px;
+   
+    display: grid;
+    grid-template-rows: 80px 80px 80px 80px 80px;
+    grid-template-columns: 80px 80px 80px 80px;
+    gap:8px 8px;
+    align-content: center;
+    position: relative;
+
+}
+
+.fbtn:active, .obtn:active, .nbtn:active{
+    transform: translateY(4px);
+}
+
+.fbtn{
+    background-color:rgb(255, 182, 46);
+    border-radius: 50%;
+    height: 60px;
+    font-size: medium;
+    margin-top: 10px;
+    border:#000 1px solid;
+}
+
+.obtn{
+    border-radius: 20px;
+    background-color: grey;
+    font-size: xx-large;
+    border:#000 2px solid;
+}
+
+.nbtn{
+    border-radius: 50%;
+    font-size: x-large;
+    border:#000 1px solid;
+}
+#equal{
+    background-color:#0d830d;
+}
+
+#zero{
+    position: absolute;
+    height:80px;
+    width:80px;
+    bottom: 7px;
+    right: 180px
+   
+}
+#add{
+    position: absolute;
+    bottom:7px;
+    right:5px;
+    height:80px;
+    width:80px;
+}
+
+
+
